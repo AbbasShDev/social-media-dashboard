@@ -1,0 +1,249 @@
+body{
+  background: hsl(0, 0%, 100%) ;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.h1Dark{
+  color: white;
+}
+h5{
+  color: hsl(228, 12%, 44%);
+}
+.h5Dark{
+  color: white;
+}
+.BgBody{
+  background: hsl(230, 17%, 14%);
+}
+.heading1{
+  color: white;
+}
+.darkMode{
+  color: hsl(228, 12%, 44%);
+}
+.darkModeToggle{
+  color: hsl(228, 34%, 66%);e;
+}
+.sizingFont{
+  font-size: 12px;
+}
+.bigNumFontSize{
+  font-size: 50px;
+}
+.letterSpace{
+  letter-spacing: 4px;
+}
+.grayishBlue{
+  color: hsl(228, 12%, 44%);
+}
+
+.grayishBlueDark{
+  color: hsl(228, 34%, 66%);
+}
+
+.line{
+  border-top: 1px solid hsl(228, 12%, 44%);
+}
+.lineDark{
+  border-top: 1px solid hsl(228, 34%, 66%);
+}
+
+.iconUpDown{
+  width: 11px;
+  height: 10px;
+  margin-right: 1px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 20px;
+  margin: 2px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(230, 22%, 74%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  right: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.sliderDark{
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(230, 22%, 74%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.sliderDark:before{
+  background-color:hsl(230, 17%, 14%);
+}
+
+input:checked + .slider {
+  background-image: linear-gradient(to right, hsl(210, 78%, 56%) , hsl(146, 68%, 55%));
+}
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(-21px);
+  -ms-transform: translateX(-21px);
+  transform: translateX(-21px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.topSection{
+  background: hsl(225, 100%, 98%);
+  padding-bottom: 10%;
+}
+.topSectionDark{
+  background: hsl(232, 19%, 15%);
+}
+
+.firstRow {
+  margin-top: -8%;
+}
+.cards{
+  background: hsl(227, 47%, 96%);
+  height: 200px;
+}
+.cards:hover{
+  background:  hsl(228, 45%, 90%);;
+}
+.cardsDark{
+  background: hsl(228, 28%, 20%);
+}
+.cardsDark:hover{
+  background:  hsl(229, 26%, 29%);
+}
+
+
+
+.card1{
+  border-top: 5px solid hsl(195, 100%, 50%);
+}
+.card2{
+  border-top: 5px solid hsl(203, 89%, 53%);
+}
+
+
+.card3{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 100% 0 , 100% 0  ;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 5px;
+  -moz-background-size: 100% 5px;
+  background-size: 100% 5px;
+  background-image: -webkit-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), -webkit-linear-gradient(left, hsl(37, 97%, 70%)0%, hsl(329, 70%, 58%) 100%);
+  background-image: -moz-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), -moz-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+  background-image: -o-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), -o-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+  background-image: linear-gradient(to right, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), linear-gradient(to right, hsl(37, 97%, 70%)0%, hsl(329, 70%, 58%) 100%);
+}
+.card3:hover{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 100% 0 , 100% 0  ;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 5px;
+  -moz-background-size: 100% 5px;
+  background-size: 100% 5px;
+  background-image: -webkit-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), -webkit-linear-gradient(left, hsl(37, 97%, 70%)0%, hsl(329, 70%, 58%) 100%);
+  background-image: -moz-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), -moz-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+  background-image: -o-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), -o-linear-gradient(left, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+  background-image: linear-gradient(to right, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%), linear-gradient(to right, hsl(37, 97%, 70%)0%, hsl(329, 70%, 58%) 100%);
+
+}
+.card4{
+  border-top: 5px solid hsl(348, 97%, 39%);
+}
+.secondRow {
+  display: flex;
+  justify-content: space-around;
+}
+.cards2{
+  background: hsl(227, 47%, 96%);
+  height: 120px;
+  padding:20px;
+}
+.cards2:hover{
+  background:  hsl(228, 45%, 90%);;
+}
+.cards2Dark{
+  background: hsl(228, 28%, 20%);
+}
+.cards2Dark:hover{
+  background:  hsl(229, 26%, 29%);
+}
+.buttomCardsNumb{
+color: black;
+}
+.buttomCardsNumbDark{
+  color: white;
+}
+  
+
+.socialIcon{
+  float: right;
+}
+
+.pesantgeCount{
+  margin-top: -25px;
+  float: right;
+  font-size: 12px;
+}
+.fontSizeViews{
+  font-size: 28.8px;
+}
+.viewsIconUpDown{
+  padding-right: 2px;
+}
+
+.secondContainer{
+  padding-top: 2.5%;
+}
+
+.footer{
+  padding-top: 20px;
+  font-size: 12px;
+}
